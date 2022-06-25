@@ -359,7 +359,6 @@ footer {
                 &.mobile-show {
                     display: block;
                     grid-column-start: -1;
-
                     background-image: url(/dist/images/icon-close.svg);
                 }
             }
@@ -373,7 +372,6 @@ footer {
                     display: grid;
                     grid-template-columns: 1fr;
                     margin-top: 10rem;
-
                     li {
                         text-align: start;
                         margin-bottom: 8px;
