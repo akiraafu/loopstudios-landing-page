@@ -4,35 +4,108 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- displays site properly based on user's device -->
-
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+            rel="stylesheet"
+        />
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
         <link rel="stylesheet" href="css/main.css" />
+        <script src="https://kit.fontawesome.com/3132341f2b.js" crossorigin="anonymous"></script>
         <title>Frontend Mentor | Loopstudios landing page</title>
-
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <style>
-            .attribution {
-                font-size: 11px;
-                text-align: center;
-            }
-            .attribution a {
-                color: hsl(228, 45%, 44%);
-            }
-        </style>
     </head>
     <body>
-        About Careers Events Products Support Immersive experiences that deliver The leader in
-        interactive VR Founded in 2011, Loopstudios has been producing world-class virtual reality
-        projects for some of the best companies around the globe. Our award-winning creations have
-        transformed businesses through digital experiences that bind to their brand. Our creations
-        See all Deep earth Night arcade Soccer team VR The grid From up above VR Pocket borealis The
-        curiosity Make it fisheye About Careers Events Products Support © 2021 Loopstudios. All
-        rights reserved.
+        <header class="hero">
+            <nav class="nav">
+                <img src="./images/logo.svg" alt="" class="logo" />
+                <div class="menuIcon">
+                    <!-- <img src="/dist/images/icon-hamburger.svg" alt="" /> -->
+                </div>
+                <ul class="navMenu">
+                    <li><a href="" class="navLink">About</a></li>
+                    <li><a href="" class="navLink">Careers</a></li>
+                    <li><a href="" class="navLink">Events</a></li>
+                    <li><a href="" class="navLink">Products</a></li>
+                    <li><a href="" class="navLink">Support</a></li>
+                </ul>
+            </nav>
+            <div class="headerText">
+                <h1>Immersive experiences that deliver</h1>
+            </div>
+        </header>
+        <section class="introSec">
+            <img src="./images/desktop/image-interactive.jpg" alt="" class="introImgDt" />
+            <img src="./images/mobile/image-interactive.jpg" alt="" class="introImgMb" />
+
+            <div class="introContent">
+                <h2>The leader in interactive VR</h2>
+                <p class="introText">
+                    Founded in 2011, Loopstudios has been producing world-class virtual reality
+                    projects for some of the best companies around the globe. Our award-winning
+                    creations have transformed businesses through digital experiences that bind to
+                    their brand.
+                </p>
+            </div>
+        </section>
+
+        <section class="featureSec">
+            <h2 class="featureTitle">Our creations</h2>
+
+            <div class="features">
+                <div class="feature feature1">
+                    <p class="featureText">Deep<br />earth</p>
+                </div>
+                <div class="feature feature2">
+                    <p class="featureText">Night<br />arcade</p>
+                </div>
+                <div class="feature feature3">
+                    <p class="featureText">Soccer<br />team VR</p>
+                </div>
+                <div class="feature feature4">
+                    <p class="featureText">The<br />grid</p>
+                </div>
+                <div class="feature feature5">
+                    <p class="featureText">From up<br />above VR</p>
+                </div>
+                <div class="feature feature6">
+                    <p class="featureText">Pocket<br />borealis</p>
+                </div>
+                <div class="feature feature7">
+                    <p class="featureText">The<br />curiosity</p>
+                </div>
+                <div class="feature feature8">
+                    <p class="featureText">Make it<br />fisheye</p>
+                </div>
+            </div>
+            <a href="#" class="btn">See all</a>
+        </section>
+
+        <footer>
+            <img src="./images/logo.svg" alt="" class="logo" />
+
+            <ul class="footerLinks">
+                <li><a href="#" class="footerLink">About</a></li>
+                <li><a href="#" class="footerLink">Careers</a></li>
+                <li><a href="#" class="footerLink">Events</a></li>
+                <li><a href="#" class="footerLink">Products</a></li>
+                <li><a href="#" class="footerLink">Support</a></li>
+            </ul>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                <a href="#"> <i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <p class="copyRight">© 2021 Loopstudios. All rights reserved.</p>
+        </footer>
 
         <div class="attribution">
             Challenge by
             <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-            >. Coded by <a href="#">Your Name Here</a>.
+            >. Coded by <a href="#">Akira</a>.
         </div>
+
+        <script src="app.js"></script>
     </body>
 </html>
