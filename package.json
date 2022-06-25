@@ -4,11 +4,13 @@
     "description": "Loopstudios landing page",
     "main": "index.js",
     "scripts": {
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
     },
     "author": "Akira Fu",
     "license": "ISC",
     "dependencies": {
+        "gh-pages": "^4.0.0",
         "node-sass": "^7.0.1"
     }
 }
