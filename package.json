@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Loopstudios landing page",
     "main": "index.js",
-    "homepage":"https://akiraafu.github.io/loopstudios-landing-page",
+    "homepage": "https://akiraafu.github.io/loopstudios-landing-page",
     "scripts": {
         "sass": "node-sass -w scss/ -o dist/css/ --recursive",
         "deploy": "gh-pages -d dist"

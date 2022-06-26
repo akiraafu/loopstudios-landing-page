@@ -31,7 +31,7 @@ a {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/dist/images/desktop/image-hero.jpg);
+        url(./dist/images/desktop/image-hero.jpg);
     background-size: cover;
     color: $White;
     padding: 3rem 8rem;
@@ -217,42 +217,42 @@ a {
         }
         .feature1 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-deep-earth.jpg);
+                url(./dist/images/desktop/image-deep-earth.jpg);
             background-size: cover;
         }
         .feature2 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-night-arcade.jpg);
+                url(./dist/images/desktop/image-night-arcade.jpg);
             background-size: cover;
         }
         .feature3 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-soccer-team.jpg);
+                url(./dist/images/desktop/image-soccer-team.jpg);
             background-size: cover;
         }
         .feature4 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-grid.jpg);
+                url(./dist/images/desktop/image-grid.jpg);
             background-size: cover;
         }
         .feature5 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-from-above.jpg);
+                url(./dist/images/desktop/image-from-above.jpg);
             background-size: cover;
         }
         .feature6 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-pocket-borealis.jpg);
+                url(./dist/images/desktop/image-pocket-borealis.jpg);
             background-size: cover;
         }
         .feature7 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-curiosity.jpg);
+                url(./dist/images/desktop/image-curiosity.jpg);
             background-size: cover;
         }
         .feature8 {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                url(/dist/images/desktop/image-fisheye.jpg);
+                url(./dist/images/desktop/image-fisheye.jpg);
             background-size: cover;
         }
     }
@@ -335,7 +335,7 @@ footer {
 @media (max-width: 768px) {
     .hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-            url(/dist/images/mobile/image-hero.jpg);
+            url(./dist/images/mobile/image-hero.jpg);
         background-size: cover;
         padding: 2rem 1rem;
         &.mobile-show {
@@ -354,12 +354,12 @@ footer {
                 width: 25px;
                 height: 25px;
                 grid-column-start: -1;
-                background-image: url(/dist/images/icon-hamburger.svg);
+                background-image: url(./dist/images/icon-hamburger.svg);
                 background-size: cover;
                 &.mobile-show {
                     display: block;
                     grid-column-start: -1;
-                    background-image: url(/dist/images/icon-close.svg);
+                    background-image: url(./dist/images/icon-close.svg);
                 }
             }
             .navMenu {
@@ -475,42 +475,42 @@ footer {
             }
             .feature1 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-deep-earth.jpg);
+                    url(./dist/images/mobile/image-deep-earth.jpg);
                 background-size: cover;
             }
             .feature2 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-night-arcade.jpg);
+                    url(./dist/images/mobile/image-night-arcade.jpg);
                 background-size: cover;
             }
             .feature3 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-soccer-team.jpg);
+                    url(./dist/images/mobile/image-soccer-team.jpg);
                 background-size: cover;
             }
             .feature4 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-grid.jpg);
+                    url(./dist/images/mobile/image-grid.jpg);
                 background-size: cover;
             }
             .feature5 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-from-above.jpg);
+                    url(./dist/images/mobile/image-from-above.jpg);
                 background-size: cover;
             }
             .feature6 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-pocket-borealis.jpg);
+                    url(./dist/images/mobile/image-pocket-borealis.jpg);
                 background-size: cover;
             }
             .feature7 {
                 background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-curiosity.jpg);
+                    url(./dist/images/mobile/image-curiosity.jpg);
                 background-size: cover;
             }
             .feature8 {
                 background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-                    url(/dist/images/mobile/image-fisheye.jpg);
+                    url(./dist/images/mobile/image-fisheye.jpg);
                 background-size: cover;
             }
         }
