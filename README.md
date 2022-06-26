@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [https://github.com/akiraafu/loopstudios-landing-page]
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [https://akiraafu.github.io/loopstudios-landing-page/]
 
 ## My process
 
@@ -43,6 +43,7 @@ Users should be able to:
 -   Sass/Scss
 -   CSS Grid
 -   Mobile-first workflow
+-   JavaScript
 
 ### What I learned
 
