@@ -409,6 +409,10 @@ footer {
       footer .footerLinks li {
         margin-right: 0;
         padding-top: 1.5rem; }
+        footer .footerLinks li:hover::after {
+          content: "";
+          width: 0;
+          height: 0; }
     footer .social {
       grid-area: c;
       place-self: center;
